@@ -3,18 +3,28 @@ title: "Juan R. Loaiza"
 defaultContentLanguage: es
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
+  goldmark:
+    renderer:
+      unsafe: true
 
 languages:
-    en:
-        contentDir: content/en
-    es:
-        contentDir: content/es
-
-menus:
-    main:
-        - name: Blog
+  en:
+    contentDir: content/en
+    menus:
+      main:
+        - name: Courses
+          weight: 8
+          url: https://cursos.juanrloaiza.com
+        - name: "Blog"
+          url: "https://blog.juanrloaiza.com/"
+          weight: 10
+  es:
+    contentDir: content/es
+    menus:
+      main:
+        - name: Cursos
+          weight: 8
+          url: https://cursos.juanrloaiza.com
+        - name: "Blog"
           url: "https://blog.juanrloaiza.com/"
           weight: 10
