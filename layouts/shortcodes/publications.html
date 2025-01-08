@@ -11,11 +11,17 @@
 
 {{ range where $.Site.Data.publications "year" $year }}
 <div style="margin-top: 1rem" class="">
-    {{.authors}} <strong> {{ .title }}. </strong> {{.reference | markdownify }}. {{ if .doi }}
+
+    {{.authors}} <strong> {{ .title }}.
+    </strong>
+    {{.reference |
+    markdownify }}. {{ if .doi }}
     <a href="http://doi.org/{{ .doi }}"> {{.doi}} </a>
     {{ else if .url }}
     <a href="{{ .url }}">{{ .url }}</a>
     {{ end }}
+
+    {{ if .openaccess }}<i class="ai ai-open-access mr-2 ai-lg" style="color: #f6830a"></i>{{ end }}
 </div>
 {{ end }}
 {{ end }}
