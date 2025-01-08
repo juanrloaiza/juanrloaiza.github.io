@@ -11,16 +11,11 @@
 
 {{ range where $.Site.Data.publications "year" $year }}
 <div style="margin-top: 1rem" class="">
-    <strong> {{ .title }} </strong><br>
-    <div>
-        {{.authors}} <br>
-        {{.reference | markdownify }} <br>
-        {{ if .doi }}
-        <a href="http://doi.org/{{ .doi }}"> {{.doi}} </a>
-        {{ else if .url }}
-        <a href="{{ .url }}">{{ .url }}</a>
-        {{ end }}
-    </div>
+    {{.authors}} <strong> {{ .title }}. </strong> {{.reference | markdownify }}. {{ if .doi }}
+    <a href="http://doi.org/{{ .doi }}"> {{.doi}} </a>
+    {{ else if .url }}
+    <a href="{{ .url }}">{{ .url }}</a>
+    {{ end }}
 </div>
 {{ end }}
 {{ end }}
