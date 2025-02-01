@@ -1,3 +1,11 @@
+- title: "Sesgo implícito, externalismo y segunda persona"
+  authors: Loaiza, J. R.
+  year: Forthcoming
+  reference: |
+    *Principia: An International Journal of Epistemology*
+  url: https://philpapers.org/rec/LOASIE
+  openaccess: true
+
 - title: "Individuating anger and other emotions: Lessons from disgust"
   authors: Loaiza, J. R. & Rojas-Velásquez, D.
   year: 2024
@@ -116,11 +124,9 @@
   openaccess: true
   url: http://editorial.urosario.edu.co/la-naturalizacion-de-las-emociones-anotaciones-a-partir-de-wittgenstein.html
   pdf: Loaiza_NaturalizacionOperaPrima2016.pdf
-
-- title: >
-    La introspección en la psicología de William James: una mirada fenomenológica
-  authors: Loaiza, J. R.
-  reference: >
-    *Légein*, (18), 59–72.
-  year: 2014
-  pdf: Loaiza_FenomenologiaJames.pdf
+# - title: "La introspección en la psicología de William James: una mirada fenomenológica"
+#   authors: Loaiza, J. R.
+#   reference: >
+#     *Légein*, (18), 59–72.
+#   year: 2014
+#   pdf: Loaiza_FenomenologiaJames.pdf
